@@ -45,7 +45,7 @@ public class TestClass {
         WebElement username=driver.findElement(By.id("user_email_login"));
         WebElement password=driver.findElement(By.id("user_password"));
         username.sendKeys("mierzvoj@gmail.com");
-        password.sendKeys("blabla");
+        password.sendKeys("pass");
         WebElement login=driver.findElement(By.name("commit"));
         login.click();
         String actualUrl="https://live.browserstack.com/dashboard#os=Windows&os_version=11&browser=Chrome&browser_version=109.0&zoom_to_fit=true&full_screen=true&url=www.browserstack.com%2Fwelcome&speed=1";
